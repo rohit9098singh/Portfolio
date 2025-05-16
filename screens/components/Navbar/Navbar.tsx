@@ -57,12 +57,12 @@ const Navbar = ({
               <span className="text-xl font-bold text-white">Rohit Singh</span>
             </div>
 
-            <div className="hidden md:flex items-center space-x-8">
-              <button className="text-white" onClick={onHeroClick}>Home</button>
-              <button className="text-white" onClick={onSkillsClick}>Skills</button>
-              <button className="text-white" onClick={onExperienceClick}>Experience</button>
-              <button className="text-white" onClick={onProjectsClick}>Projects</button>
-              <button className="text-white" onClick={onContactClick}>Contact</button>
+            <div className="hidden md:flex items-center space-x-8 ">
+              <button className="text-white cursor-pointer" onClick={onHeroClick}>Home</button>
+              <button className="text-white cursor-pointer" onClick={onSkillsClick}>Skills</button>
+              <button className="text-white cursor-pointer" onClick={onExperienceClick}>Experience</button>
+              <button className="text-white cursor-pointer" onClick={onProjectsClick}>Projects</button>
+              <button className="text-white cursor-pointer" onClick={onContactClick}>Contact</button>
             </div>
 
             <div className="md:hidden flex items-center space-x-4">
@@ -77,11 +77,11 @@ const Navbar = ({
       {isMobileMenuOpen && (
         <div className="fixed inset-0 z-40 bg-slate-800 pt-16">
           <div className="flex flex-col items-center space-y-8 p-8">
-            <button className="text-xl font-medium text-white" onClick={() => handleMenuClick(onHeroClick)}>Home</button>
-            <button className="text-xl font-medium text-white" onClick={() => handleMenuClick(onSkillsClick)}>Skills</button>
-            <button className="text-xl font-medium text-white" onClick={() => handleMenuClick(onExperienceClick)}>Experience</button>
-            <button className="text-xl font-medium text-white" onClick={() => handleMenuClick(onProjectsClick)}>Projects</button>
-            <button className="text-xl font-medium text-white" onClick={() => handleMenuClick(onContactClick)}>Contact</button>
+            <button className="text-xl font-medium text-white cursor-pointer" onClick={() => handleMenuClick(onHeroClick)}>Home</button>
+            <button className="text-xl font-medium text-white cursor-pointer" onClick={() => handleMenuClick(onSkillsClick)}>Skills</button>
+            <button className="text-xl font-medium text-white cursor-pointer" onClick={() => handleMenuClick(onExperienceClick)}>Experience</button>
+            <button className="text-xl font-medium text-white cursor-pointer" onClick={() => handleMenuClick(onProjectsClick)}>Projects</button>
+            <button className="text-xl font-medium text-white cursor-pointer" onClick={() => handleMenuClick(onContactClick)}>Contact</button>
           </div>
         </div>
       )}

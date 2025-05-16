@@ -1,6 +1,4 @@
-// import { BackgroundBeams } from "@/components/ui/background-beams";
 "use client"
-import { BackgroundBeams } from "@/components/ui/background-beams";
 import Contact from "@/screens/components/Contact/Contact";
 import Experience from "@/screens/components/Experience/Experience";
 import Hero from "@/screens/components/Hero/Hero";
