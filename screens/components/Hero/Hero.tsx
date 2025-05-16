@@ -14,7 +14,7 @@ const Hero = ({ onProjectsClick, onContactClick }:Refprops) => {
     <div className="min-h-screen flex items-center justify-center  px-4 md:px-6 relative ">
       <BackgroundBeams className="absolute -z-10 inset-0 bg-slate-950" />
 
-      <div className="flex flex-col  items-center text-center space-y-8 "> // hello to commit 
+      <div className="flex flex-col  items-center text-center space-y-8 "> 
         <div className="space-y-2">
           <h2 className="text-xl md:text-2xl font-medium text-white">Hello, I&apos;m</h2>
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold  text-blue-500">Rohit Singh</h1>
