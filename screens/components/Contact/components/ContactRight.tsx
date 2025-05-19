@@ -19,6 +19,8 @@ import { z } from "zod"
 import { Send } from "lucide-react"
 import toast from "react-hot-toast"
 import {schema} from "./validation/Validation"
+import emailjs from "@emailjs/browser"
+
 
 
 type FormData = z.infer<typeof schema>
@@ -35,12 +37,32 @@ export default function ContactRight() {
   })
 
   const onSubmit = async (data: FormData) => {
-    console.log(data)
-    if(data){
-        toast.success(`${data.email} we will get back to u soon`)
-        // form.reset()
-    }
+  form.clearErrors();
+  form.setFocus("name"); 
+
+  try {
+    const result = await emailjs.send(
+      'service_7mglkg9', // replace with your real service ID
+      'template_tf0qh6o', // replace with your template ID
+      {
+        name: data.name,
+        email: data.email,
+        message: data.message
+      },
+      'AAec0RLiR45DGFYw4' // your EmailJS public key
+    );
+
+    toast.success("Thank you for your message! Rohit will get back to you soon.");
+    form.reset(); 
+
+    console.log("Email sent successfully:", result);
+  } catch (error: any) {
+    console.error("Email send error:", error);
+
+    toast.error("Something went wrong while sending your message. Please try again later.");
   }
+};
+
 
   return (
     <Card className="bg-slate-900 border border-white/20 ">
@@ -104,3 +126,5 @@ export default function ContactRight() {
     </Card>
   )
 }
+
+
