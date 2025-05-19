@@ -73,7 +73,7 @@ const Hero = ({ onProjectsClick, onContactClick }: HeroProps) => {
               alt="Rohit Singh"
               width={320}
               height={320}
-              className="w-full h-full object-cover object-center"
+              className="w-full h-full object-cover object-center  "
               priority
             />
           </div>

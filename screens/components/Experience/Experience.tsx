@@ -33,7 +33,7 @@ const Experience = () => {
                 <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-4">
                   <div>
                     <h3 className="text-xl font-bold text-white">
-                      Frontend Developer
+                    Frontend Developer Intern at :
                     </h3>
                     <h4 className="text-lg font-medium text-blue-500">
                       StamperHR Pvt. Ltd.
