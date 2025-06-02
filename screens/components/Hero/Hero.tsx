@@ -69,7 +69,7 @@ const Hero = ({ onProjectsClick, onContactClick }: HeroProps) => {
           <div className="absolute -inset-0.5 bg-blue-500 rounded-full opacity-75 blur-sm group-hover:opacity-100 transition duration-300"></div>
           <div className="relative w-[280px] h-[280px] md:w-[320px] md:h-[320px] rounded-full border-4 border-blue-500 overflow-hidden shadow-xl bg-slate-900">
             <Image
-              src="/rohit.png"
+              src="/myimgae.jpg"
               alt="Rohit Singh"
               width={320}
               height={320}
@@ -83,7 +83,7 @@ const Hero = ({ onProjectsClick, onContactClick }: HeroProps) => {
           asChild
           className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full shadow-lg hover:shadow-blue-500/50 transition-all duration-300 transform hover:-translate-y-1"
         >
-          <a href="https://drive.google.com/file/d/1ylbY-s1MOPK24Q-lZZHLr1ssy-a4oulm/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1nIJdm8nnaRN-J6ll3yF8LYqWjK0maLDA/view?usp=sharing" target="_blank" rel="noopener noreferrer">
             <FileText className="h-5 w-5" />
             View My Resume
           </a>
