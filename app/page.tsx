@@ -19,7 +19,6 @@ export default function Home() {
     ref.current?.scrollIntoView({ behavior: "smooth" })
   }
 
-
   return (
     <div className="w-full h-auto overflow-hidden">
       <Navbar
