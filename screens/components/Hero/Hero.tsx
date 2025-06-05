@@ -83,7 +83,7 @@ const Hero = ({ onProjectsClick, onContactClick }: HeroProps) => {
           asChild
           className="flex items-center gap-2 bg-blue-500 hover:bg-blue-600 text-white px-6 py-2 rounded-full shadow-lg hover:shadow-blue-500/50 transition-all duration-300 transform hover:-translate-y-1"
         >
-          <a href="https://drive.google.com/file/d/1oaLR-_IdsAryOHtImKfLCPxrnPMkRVxo/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+          <a href="https://drive.google.com/file/d/1wcJc_tJVVbiZTij-LxZpiYKdG9i4c7iZ/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
             <FileText className="h-5 w-5" />
             View My Resume
           </a>
