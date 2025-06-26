@@ -19,7 +19,7 @@ const Projects = () => {
       id: 2,
       title: "LetsMeet",
       description: "Full-stack social platform with real-time features",
-      image: "/lets_meet.png",
+      image: "/letmeet.png",
       technologies: ["Next.js", "Socket.IO", "Node.js", "MongoDB", "Tailwind CSS"],
       features: ["Real-time 1-1 chat", "Group chat", "Media posts", "Auth system"],
       github: "https://github.com/rohit9098singh",
